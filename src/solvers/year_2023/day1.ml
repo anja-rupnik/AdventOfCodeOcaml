@@ -60,3 +60,4 @@ module Solver : Solver = struct
   let naloga2 data =
     let lines = String.split_on_char '\n' data in
     sum (List.map vrnia lines)
+end
